@@ -35,6 +35,11 @@ class ViewController: UIViewController {
     }
     @IBOutlet weak var theLabel: UILabel!
     
+    @IBOutlet weak var text1: UITextField!
+    
+    @IBOutlet weak var text2: UITextField!
+    
+    
     var tapCount = 0
     
     override func didReceiveMemoryWarning() {
