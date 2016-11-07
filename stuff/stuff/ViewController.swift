@@ -14,11 +14,7 @@ class ViewController: UIViewController {
 
     @IBAction func buttontapped(_ sender: Any) {
     
-       tapCount = tapCount + 1
-        print(tapCount)
-        if tapCount >= 20 {
-            theLabel.text = "You tapped the button 20 times!"
-        }
+        
     
     }
     
@@ -29,18 +25,12 @@ class ViewController: UIViewController {
         
     }
 
-    @IBAction func theOtherButton(_ sender: Any) {
-        theLabel.text = "Why you press dis button??"
-        print("Button 2 tapped")
-    }
+    
     @IBOutlet weak var theLabel: UILabel!
     
     @IBOutlet weak var text1: UITextField!
     
     @IBOutlet weak var text2: UITextField!
-    
-    
-    var tapCount = 0
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
