@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  First App
+//  stuff
 //
 //  Created by Tyler Hixon on 11/6/16.
 //  Copyright © 2016 Tyler Hixon. All rights reserved.
