@@ -12,12 +12,12 @@ class ViewController: UIViewController {
     
     
 
-    @IBAction func buttontapped(_ sender: Any) {
     
-        
     
+    @IBAction func buttonTapped(_ sender: AnyObject) {
+        print(text1)
+        print(text2)
     }
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
